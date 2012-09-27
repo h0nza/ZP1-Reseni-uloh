@@ -14,7 +14,7 @@ int main() {
 	printf("Hello, world!\n");
 
 	// Druhy ukol
-	printf("Hodnota promenne cislo je: %d, na druhou: %d, %g\n", cislo, cislo * cislo, des_cislo);
+	printf("Hodnota promenne cislo je: %d\n", cislo);
 	printf("Hodnota promenne des_cislo je: %g\n", des_cislo);
 	printf("Hodnota promenne znak je: %c\n", znak);
 	printf("Hodnota promenne male_cislo je: %g\n", male_cislo);
