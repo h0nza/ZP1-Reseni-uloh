@@ -73,7 +73,7 @@ void prvocisla() {
 }
 
 int main() {
-	// ctverec();
-	// nasobilka();
+	ctverec();
+	nasobilka();
 	prvocisla();
 }
