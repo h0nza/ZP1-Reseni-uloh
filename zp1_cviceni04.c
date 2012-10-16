@@ -54,8 +54,8 @@ void prvocisla() {
 
 	// Zacneme iterovat od cislo=3 a budeme vzdy pricitat +2, takze budeme zkouset jen licha cisla.
 	for (cislo = 3; cislo < limit; cislo += 2) {
-		// Zjistime, jestli je cislo i delitelne nejakym cislem z intervalu 3 az (i-1).
-		// Lze to jeste zoptimalizovat tak, ze vezmeme jen interval 3 az odmocnina(i)
+		// Zjistime, jestli je cislo i delitelne nejakym cislem z intervalu 3 az (cislo-1).
+		// Lze to jeste zoptimalizovat tak, ze vezmeme jen interval 3 az odmocnina(cislo)
 		for (delitel = 3; delitel < cislo; delitel += 2) {
 			if (cislo % delitel == 0) {
 				// Pokud delitel deli cislo, pak uz vime, ze cislo neni prvocislo
