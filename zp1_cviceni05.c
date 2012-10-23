@@ -2,7 +2,7 @@
 
 #define POCET_SUMA_PREFIXU 6
 #define POCET_ZNAKU 255
-#define ERATOSTHENOVO_MAXIMUM 97
+#define ERATOSTHENOVO_MAXIMUM 100
 
 
 void suma_prefixu() {
