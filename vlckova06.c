@@ -16,7 +16,7 @@ int maximum_pole (int cisla[], int delka_pole) { //chyba: definujes funkci ve fu
 //chyba? 1. protoze max jsi inicialozovala na cislo[0], nemusis for () cyklus inicialovat i=0, ale i=1
 //       2. melo by se kontrolovat, je-li delka_pole >=1, delka <=0 je nesmysl
    for (i = 0; i < delka_pole; i++) //chyba? ja bych dal { ... } i kolem vsech jedno-prikazu
-       if (pole[i] > max)
+       if (pole[i] > max) //chyba!!!!!!!! tady pouzivas promennou mimo telo funkce!!! argument je cisla[] !!!
 	  max = pole[i];
    return max;
 }
